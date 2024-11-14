@@ -26,7 +26,7 @@
 
 <ul style="margin-top: 10px;">
   <li><span style="color: #502F4C;">HTML5</span> for the webpage structure.</li>
-  <li><span style="color: #502F4C;">CSS3</span> for the animations and color transitions.</li>
+  <li><span style="color: #502F4C;">Javascript</span> for the animations and color transitions.</li>
 </ul>
 
 <h2 style="color: #502F4C; font-size: 1.5em;">Getting Started</h2>
@@ -59,17 +59,6 @@
   <li><code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">index.html</code> - Provides the basic structure of the page.</li>
   <li><code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">style.css</code> - Contains CSS animations that control the color rotation of each square.</li>
 </ul>
-
-<h3 style="color: #502F4C;">CSS Animation Example</h3>
-
-<pre style="background-color: #C8B8DB; padding: 10px; border-radius: 5px; color: #000000;"><code>@keyframes colorRotate {
-  0% { background-color: #000000; }
-  25% { background-color: #502F4C; }
-  50% { background-color: #70587C; }
-  75% { background-color: #C8B8DB; }
-  100% { background-color: #F9F4F5; }
-}
-</code></pre>
 
 <p>Each square uses a variation of the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">colorRotate</code> animation to create a staggered color effect.</p>
 
