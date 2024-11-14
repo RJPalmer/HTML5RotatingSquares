@@ -57,7 +57,8 @@
 
 <ul style="margin-top: 10px;">
   <li><code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">index.html</code> - Provides the basic structure of the page.</li>
-  <li><code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">style.css</code> - Contains CSS animations that control the color rotation of each square.</li>
+  <li><code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">myScript.js</code> - Contains javascript functions that control the color rotation of each square.</li>
+  <li><code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">Square.js</code> - Defines the Square object used in myScript.</li>
 </ul>
 
 <p>Each square uses a variation of the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">colorRotate</code> animation to create a staggered color effect.</p>
