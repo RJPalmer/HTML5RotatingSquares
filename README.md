@@ -1,31 +1,89 @@
-# HTML5RotatingSquares
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #000000; background-color: #F9F4F5;">
 
-**HTML5RotatingSquares** is a simple HTML5 project that displays four squares, each rotating through different colors. This project demonstrates the use of HTML and CSS animations for a visually dynamic effect.
+<h1 style="color: #502F4C; font-size: 2em;">HTML5RotatingSquares</h1>
 
-## Demo
+<p><strong>HTML5RotatingSquares</strong> is a simple HTML5 project that displays four squares, each rotating through different colors. This project demonstrates the use of HTML5's Canvas object and Javascript for a visually dynamic effect.</p>
 
-![HTML5RotatingSquares Demo](demo.gif)  
-*GIF showcasing the rotating color effect.*
+<h2 style="color: #502F4C; font-size: 1.5em;">Demo</h2>
 
-## Features
+<p style="background-color: #70587C; color: #F9F4F5; padding: 10px; border-radius: 5px; display: inline-block;">Demo GIF showcasing the rotating color effect.</p>
 
-- Four squares that continuously rotate through different colors.
-- Smooth color transitions for an eye-catching animation.
-- Built using minimal HTML5 and CSS3.
+<h2 style="color: #502F4C; font-size: 1.5em;">Features</h2>
 
-## Technologies Used
+<ul style="margin-top: 10px;">
+  <li>Four squares that continuously rotate through 4 colors.</li>
+  <li>Smooth color transitions for an eye-catching animation.</li>
+  <li>Built using minimal HTML5 and Javascript</li>
+</ul>
 
-- **HTML5** for the webpage structure.
-- **CSS3** for the animations and color transitions.
+<h2 style="color: #502F4C; font-size: 1.5em;">Technologies Used</h2>
 
-## Getting Started
+<ul style="margin-top: 10px;">
+  <li><span style="color: #502F4C;">HTML5</span> for the webpage structure.</li>
+  <li><span style="color: #502F4C;">CSS3</span> for the animations and color transitions.</li>
+</ul>
 
-### Prerequisites
+<h2 style="color: #502F4C; font-size: 1.5em;">Getting Started</h2>
 
-All you need is a web browser to view the HTML page. No additional installations or dependencies are necessary.
+<h3 style="color: #502F4C;">Prerequisites</h3>
 
-### Installation
+<p>All you need is a web browser to view the HTML page. No additional installations or dependencies are necessary.</p>
 
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/RJPalmer/HTML5RotatingSquares.git
+<h3 style="color: #502F4C;">Installation</h3>
+
+<ol>
+  <li>Clone this repository to your local machine:
+    <pre style="background-color: #C8B8DB; padding: 10px; border-radius: 5px; color: #000000;"><code>git clone https://github.com/RJPalmer/HTML5RotatingSquares.git</code></pre>
+  </li>
+  <li>Navigate to the project folder:
+    <pre style="background-color: #C8B8DB; padding: 10px; border-radius: 5px; color: #000000;"><code>cd HTML5RotatingSquares</code></pre>
+  </li>
+  <li>Open the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">index.html</code> file in your preferred web browser.</li>
+</ol>
+
+<h2 style="color: #502F4C; font-size: 1.5em;">Usage</h2>
+
+<p>Simply open the HTML file to see the rotating squares in action. Customize the colors or timing in the CSS file if you want to personalize the effect.</p>
+
+<h2 style="color: #502F4C; font-size: 1.5em;">Code Overview</h2>
+
+<p>The main files in this project are:</p>
+
+<ul style="margin-top: 10px;">
+  <li><code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">index.html</code> - Provides the basic structure of the page.</li>
+  <li><code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">style.css</code> - Contains CSS animations that control the color rotation of each square.</li>
+</ul>
+
+<h3 style="color: #502F4C;">CSS Animation Example</h3>
+
+<pre style="background-color: #C8B8DB; padding: 10px; border-radius: 5px; color: #000000;"><code>@keyframes colorRotate {
+  0% { background-color: #000000; }
+  25% { background-color: #502F4C; }
+  50% { background-color: #70587C; }
+  75% { background-color: #C8B8DB; }
+  100% { background-color: #F9F4F5; }
+}
+</code></pre>
+
+<p>Each square uses a variation of the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">colorRotate</code> animation to create a staggered color effect.</p>
+
+<h2 style="color: #502F4C; font-size: 1.5em;">Customization</h2>
+
+<p>To change the colors or rotation speed, edit the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">style.css</code> file. Adjust the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">@keyframes</code> color values or the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">animation-duration</code> to achieve your desired color scheme and timing.</p>
+
+<h2 style="color: #502F4C; font-size: 1.5em;">Contributing</h2>
+
+<p>To contribute, fork the repository, make changes, and submit a pull request.</p>
+
+<h2 style="color: #502F4C; font-size: 1.5em;">License</h2>
+
+<p>This project is open-source and available under the <a href="LICENSE" style="color: #70587C;">MIT License</a>.</p>
+
+</body>
+</html>
