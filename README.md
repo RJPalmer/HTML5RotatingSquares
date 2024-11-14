@@ -11,7 +11,7 @@
 <p><strong>HTML5RotatingSquares</strong> is a simple HTML5 project that displays four squares, each rotating through different colors. This project demonstrates the use of HTML5's Canvas object and Javascript for a visually dynamic effect.</p>
 
 <h2 style="color: #502F4C; font-size: 1.5em;">Demo</h2>
-
+<IMG SRC="demo.gif">
 <p style="background-color: #70587C; color: #F9F4F5; padding: 10px; border-radius: 5px; display: inline-block;">Demo GIF showcasing the rotating color effect.</p>
 
 <h2 style="color: #502F4C; font-size: 1.5em;">Features</h2>
