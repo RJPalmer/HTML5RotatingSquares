@@ -61,12 +61,6 @@
   <li><code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">Square.js</code> - Defines the Square object used in myScript.</li>
 </ul>
 
-<p>Each square uses a variation of the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">colorRotate</code> animation to create a staggered color effect.</p>
-
-<h2 style="color: #502F4C; font-size: 1.5em;">Customization</h2>
-
-<p>To change the colors or rotation speed, edit the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">style.css</code> file. Adjust the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">@keyframes</code> color values or the <code style="background-color: #C8B8DB; padding: 2px 4px; border-radius: 4px; color: #000000;">animation-duration</code> to achieve your desired color scheme and timing.</p>
-
 <h2 style="color: #502F4C; font-size: 1.5em;">Contributing</h2>
 
 <p>To contribute, fork the repository, make changes, and submit a pull request.</p>
