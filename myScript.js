@@ -2,10 +2,10 @@ window.onload = function () {
   var c = document.getElementById("theCanvas");
   var cxt = c.getContext("2d");
 
-  var square1 = new Square(0, 0, 150, 150, "0000ff");
-  var square2 = new Square(150, 0, 150, 150, "00ff00");
-  var square4 = new Square(0, 150, 150, 150, "ff0000");
-  var square3 = new Square(150, 150, 150, 150, "ff00ff");
+  var square1 = new Square(0, 0, 150, 150, "#0000ff");
+  var square2 = new Square(150, 0, 150, 150, "#00ff00");
+  var square4 = new Square(0, 150, 150, 150, "#ff0000");
+  var square3 = new Square(150, 150, 150, 150, "#ff00ff");
   var t;
   var timer_is_on = 0;
 
